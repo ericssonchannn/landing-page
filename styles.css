@@ -1,0 +1,86 @@
+.container {
+    background-color:rgb(179, 179, 179);
+    display:flex;
+    height: 100vh;
+}
+
+h1 {
+    color:white;
+    text-indent: 100px;
+}
+
+.navigation h1 a:hover{
+    color:rgb(103, 117, 190);
+}
+
+.navigation {
+    height: 60px;
+    background-color:rgb(29, 30, 48);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.navigation ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right:100px;
+    gap: 50px;
+}
+  
+.navigation li {
+    margin: 10px;
+}
+
+.navigation a:hover {
+    color:rgba(151, 151, 151, 0.949);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:active {
+    text-shadow: 0 0 3px;
+}
+
+.about-box {
+    height:40vh;
+    background-color:rgb(29, 30, 48);
+    color:white;
+    border-top: 2px solid rgb(29, 30, 48);
+    padding: 50px 50px 50px 100px;
+}
+
+button[type="submit"] {
+    border:none;
+    display:flex;
+    background-color: rgb(52, 105, 240);
+    color:white;
+    border-radius:8px;
+    padding:10px;
+    width:100px;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(56, 99, 137, 0.771);
+  }
+
+button[type="submit"]:active {
+    box-shadow: 0 0 5px;
+}
+
+.footer {
+    margin-top:auto;
+    height: 70px;
+    background-color:rgb(29, 30, 48);
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
